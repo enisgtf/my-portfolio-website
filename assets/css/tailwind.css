@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::after,
+  *::before {
+    @apply box-border p-0 m-0;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark-slate border-[3px] border-navy rounded-xl;
+  }
+
+  body {
+    @apply font-cal bg-navy text-slate min-h-screen relative;
+  }
+
+  header {
+    @apply md:px-12 px-24;
+  }
+
+  section {
+    @apply flex flex-col justify-center mx-auto;
+  }
+
+  h1 {
+    font-size: clamp(40px, 8vw, 70px);
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: clamp(32px, 7vw, 60px);
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: clamp(40px, 5vw, 60px);
+  }
+
+  /* titles */
+  h3 {
+    @apply flex items-center text-heading text-lightest-slate font-semibold  w-full  sm:text-xxl mb-10  after:block after:relative after:h-[1px] after:max-w-[300px] after:w-full after:bg-lightest-navy after:ml-4 after:top-1;
+  }
+
+  ol {
+    @apply list-[decimal-leading-zero];
+  }
+
+  ul {
+    @apply list-disc font-sf text-m  marker:text-green pl-5 text-light-slate tracking-wider;
+  }
+
+  span {
+    @apply font-sf sm:text-s text-m text-green mb-10  tracking-wider;
+  }
+
+  p {
+    @apply max-w-[550px] sm:text-xs text-l;
+  }
+
+  strong{
+    @apply text-green font-sf font-normal
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block text-green bg-opacity-0 border border-green  px-6 py-4 hover:bg-green-tint sm:px-4 sm:py-2 cursor-pointer w-fit;
+  }
+}
