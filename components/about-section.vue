@@ -46,15 +46,6 @@
             </div>
         </div>
         <div class="mt-12 p-8 bg-dark-navy rounded " :class="moreDetailMenu ? 'animate-open-menu' : 'hidden'">
-            <h4 class="text-xl text-lightest-slate mb-4">Üniversite hakkında</h4>
-            <p class="text-s w-full max-w-none">Bir öğrenci olarak ne kadar vaktimin okulda geçtiği hakkında bilgi vermek
-                istiyorum. <br>
-                Yıllık üniversite takvimime göre, yaz aylarında (Haziran-Eylül) 3.5 ay ve kış aylarında (Aralık-Şubat) 1.5
-                ay olmak üzere <strong>toplamda 5 ay boyunca tam zamanlı çalışabilmek için müsaitim</strong>. Kalan aylarda
-                ise, haftaiçi 2-3
-                gün (genellikle 2 gün) zorunlu derslerim nedeniyle gündüzleri müsait olmasam bile akşamları çalışabilirim.
-                <strong>Çalışma saatlerinde sorun olmadığı sürece tüm yıl tam zamanlı çalışmaya açığım.</strong>
-            </p>
             <h4 class="text-xl text-lightest-slate mt-8 mb-4">Öğrendiğim Tüm Teknolojiler</h4>
             <p class="text-s w-full max-w-none mb-2">
                 <strong>Temel:</strong> HTML, CSS, JavaScript, JQuery, Bootstrap <br>
