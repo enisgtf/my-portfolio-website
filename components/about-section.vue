@@ -30,6 +30,8 @@
                     <li id="about-li4">MongoDB</li>
                     <li id="about-li7">Tailwind</li>
                     <li id="about-li8">SASS/SCSS</li>
+                    <li id="about-li8">AWS Serverless</li>
+                    <li id="about-li8">AWS SDK</li>
                 </ul>
                 <button class=" btn w-full text-center max-w-[400px] cursor-pointer" @click="clickDetailButton"
                     id="about-button">Hakkımda daha fazla detay</button>
@@ -54,10 +56,10 @@
                 <strong>Front end:</strong> Vue.js, Tailwind, SASS/SCSS, Vuex, Pinia, Vue Router, Nuxt.js <br>
             </p>
             <p class="text-s w-full max-w-none mb-2">
-                <strong>Back end:</strong> Node.js, Express.js, Axios, Mongoose <br>
+                <strong>Back end:</strong> Node.js, Express.js, Axios, Mongoose, AWS, AWS Serverless, AWS SDK <br>
             </p>
             <p class="text-s w-full max-w-none mb-2">
-                <strong>Veritabanı:</strong> MongoDB, SQL, Firebase <br>
+                <strong>Veritabanı:</strong> MongoDB, SQL, Firebase, DynomoDB <br>
             </p>
             <p class="text-s w-full max-w-none mb-2">
                 <strong>Versiyon kontrol:</strong> Git, Github <br>
