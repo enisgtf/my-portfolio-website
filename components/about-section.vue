@@ -30,7 +30,7 @@
                     <li id="about-li4">MongoDB</li>
                     <li id="about-li7">Tailwind</li>
                     <li id="about-li8">SASS/SCSS</li>
-                    <li id="about-li8">AWS Serverless</li>
+                    <li id="about-li8"><strong>AWS</strong> Serverless</li>
                     <li id="about-li8">AWS SDK</li>
                 </ul>
                 <button class=" btn w-full text-center max-w-[400px] cursor-pointer" @click="clickDetailButton"
