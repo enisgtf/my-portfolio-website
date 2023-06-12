@@ -8,7 +8,7 @@
             geliştirdiğim fullstack web uygulamalarımı inceleyebilirsin!
         </p>
         <div  id="hero-a">
-            <a href="https://drive.google.com/file/d/1wgWSkEyQnpCjbQqnsnXx9e9rZZXqAP4s/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1b8jCq46eetCGzCb6jGkLjleGAlGj7QA4/view?usp=sharing"
                 target="_blank" class="btn mt-10 sm:mt-6 block">Özgeçmişimi PDF olarak görüntüle</a>
         </div>
     </section>
