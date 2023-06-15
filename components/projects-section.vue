@@ -9,7 +9,7 @@
             <div class=" rounded group ">
                 <img src="../assets/images/blogapp.png" alt="blogapp"
                     class="max-w-[540px] h-[340px] w-full sm:h-[365px] grayscale-[30%] group-hover:grayscale-0 rounded transition-all duration-300 brightness-[25%]  md:brightness-[10%] sm:brightness-[10%] group-hover:brightness-100 md:group-hover:brightness-[10%] sm:group-hover:brightness-[10%]" />
-                <a href="https://github.com/enisgtf/blogapp-frontend-mevnstack" target="_blank"
+                <a href="https://enisgtf-mevnstack-blogapp.netlify.app/" target="_blank"
                     class="max-w-[540px] h-[340px] w-full sm:h-[365px] border-green border brightness-75 absolute top-0 cursor-pointer bg-[#1D4753] opacity-30"></a>
             </div>
             <div
@@ -57,10 +57,10 @@
                     <li>MongoDB</li>
                 </ul>
                 <div class="flex gap-4 text-light-slate  sm:justify-start md:justify-start ">
-                    <a target="_blank" href="https://github.com/enisgtf/blogapp-frontend-mevnstack">
+                    <a href="https://github.com/enisgtf/Fullstack-TodoApp" target="_blank">
                         <Icon name="uil:github" class="w-[20px] h-[20px] hover:text-white" />
                     </a>
-                    <a target="_blank" href="https://enisgtf-mevnstack-blogapp.netlify.app/">
+                    <a target="_blank" href="https://enisgtf-mevnstack-todoapp.netlify.app/">
                         <Icon name="cil:external-link" class="w-[20px] h-[20px] hover:text-white" />
                     </a>
                 </div>
@@ -68,7 +68,7 @@
             <div class=" rounded group ">
                 <img src="../assets/images/todoapp.png" alt="fotografim"
                     class="max-w-[540px] h-[340px] w-full sm:h-[360px] grayscale-[30%] group-hover:grayscale-0 rounded transition-all duration-300 brightness-[25%]  md:brightness-[10%] sm:brightness-[10%] group-hover:brightness-100 md:group-hover:brightness-[10%] sm:group-hover:brightness-[10%]" />
-                <a href="https://github.com/enisgtf/blogapp-frontend-mevnstack" target="_blank"
+                <a href="https://enisgtf-mevnstack-todoapp.netlify.app/" target="_blank"
                     class="max-w-[540px] h-[340px] w-full sm:h-[360px] border-green border brightness-75 absolute top-0 cursor-pointer bg-[#1D4753] opacity-30 "></a>
             </div>
         </div>
@@ -99,7 +99,7 @@
                         <a target="_blank" href="https://github.com/enisgtf/QuizApp">
                             <Icon name="uil:github" class="w-[20px] h-[20px] hover:text-white" />
                         </a>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://enisgtf-quizapp.netlify.app/">
                             <Icon name="cil:external-link" class="w-[20px] h-[20px] hover:text-white" />
                         </a>
                     </div>
@@ -127,7 +127,7 @@
                         <a target="_blank" href="https://github.com/enisgtf/Basic-Landing-Page">
                             <Icon name="uil:github" class="w-[20px] h-[20px] hover:text-white" />
                         </a>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://enisgtf-basic-landing-page.netlify.app/">
                             <Icon name="cil:external-link" class="w-[20px] h-[20px] hover:text-white" />
                         </a>
                     </div>
@@ -155,7 +155,7 @@
                         <a target="_blank" href="https://github.com/enisgtf/GameDev-HTML-SCSS">
                             <Icon name="uil:github" class="w-[20px] h-[20px] hover:text-white" />
                         </a>
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://enisgtf-game-dev-basic.netlify.app">
                             <Icon name="cil:external-link" class="w-[20px] h-[20px] hover:text-white" />
                         </a>
                     </div>
@@ -200,9 +200,10 @@
                 </ul>
             </div>
         </div>
-    </section></template>
+    </section>
+</template>
 <script>
-export default{
+export default {
     mounted() {
         this.$sr.reveal('#projects-section', { delay: 600, origin: "top", distance: "30px" });
         this.$sr.reveal('#projects-span', { delay: 600, origin: "top", distance: "30px" });
