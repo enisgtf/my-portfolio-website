@@ -48,7 +48,7 @@
                     class="bg-light-navy rounded  max-w-[400px] p-4 w-full shadow-sm mb-4 md:bg-opacity-0 sm:bg-opacity-0 sm:p-0 md:p-0 ">
                     <p class="text-m sm:text-xs">Kullanıcıların kayıt olup kendi listesini yapabildiği,
                         todoları 'tamamlandı' şekline dönüştürebildiği, her şeyin reaktif çalıştığı fullstack,
-                        basit diyebileceğim ilk yazdığım fullstack responsive uygulamam.</p>
+                        basit diyebileceğim ilk yazdığım fullstack responsive uygulamam. Canlı API'ların çalışması için bir dakika beklemelisiniz.</p>
                 </div>
                 <ul
                     class="flex  md:justify-start sm:justify-start flex-wrap  gap-3 list-none text-light-slate mb-2 pl-0 sm:text-xs">
