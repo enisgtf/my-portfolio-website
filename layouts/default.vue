@@ -10,7 +10,7 @@
                 <li class="hover:text-green cursor-pointer" id="projeler"><a href="#projects-section">Projelerim</a></li>
                 <li class="hover:text-green cursor-pointer" id="iletisim"><a href="#contact-section">İletişim</a></li>
                 <a class="list-none border border-green p-2 bg-navy outline-none text-green -m-8 rounded hover:bg-green-tint cursor-pointer"
-                    href="https://drive.google.com/file/d/1b8jCq46eetCGzCb6jGkLjleGAlGj7QA4/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1dhWj5qH-h65Gp3ZfyH0kOZvUAvoElGj6/view?usp=sharing"
                     target="_blank">Özgeçmiş</a>
             </ol>
         </nav>

@@ -7,9 +7,9 @@
             isteyen hevesli bir üniversite öğrencisiyim. <strong>Vue.js</strong> ve <strong>Node.js</strong> kullanarak
             geliştirdiğim fullstack web uygulamalarımı inceleyebilirsin!
         </p>
-        <div  id="hero-a">
-            <a href="https://drive.google.com/file/d/1b8jCq46eetCGzCb6jGkLjleGAlGj7QA4/view?usp=sharing"
-                target="_blank" class="btn mt-10 sm:mt-6 block">Özgeçmişimi PDF olarak görüntüle</a>
+        <div id="hero-a">
+            <a href="https://drive.google.com/file/d/1dhWj5qH-h65Gp3ZfyH0kOZvUAvoElGj6/view?usp=sharing" target="_blank"
+                class="btn mt-10 sm:mt-6 block">Özgeçmişimi PDF olarak görüntüle</a>
         </div>
     </section>
 </template>
